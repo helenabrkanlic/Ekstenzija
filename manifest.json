@@ -1,0 +1,9 @@
+ { "manifest_version": 2,
+  "name": "Info",
+  "version": "1.0",
+  "browser_action": {"default_popup": "popup.html"},
+  "author": "Helena Brkanlic",
+   "content_security_policy": "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; object-src 'self'",
+  "permissions": [
+    "activeTab" ]
+  }
